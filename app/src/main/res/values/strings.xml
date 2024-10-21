@@ -1,0 +1,4 @@
+<resources>
+    <string name="app_name">my 40 Counter</string>
+    <string name="reset_message" />
+</resources>
