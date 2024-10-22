@@ -21,18 +21,19 @@ class MainActivity : AppCompatActivity() {
             v.setPadding(systemBars.left, systemBars.top, systemBars.right, systemBars.bottom)
             insets
         }
-        val myButton: Button = findViewById(R.id.Button)
-        val resetButton = findViewById<Button>(R.id.button2)
-        val show = findViewById<TextView>(R.id.num)
-        var count = 0
-
-        myButton.setOnClickListener{
-            count += 1
-            show.text = count.toString()
-            Toast.makeText(this, "Done$count", Toast.LENGTH_SHORT).show()
-        }
-        resetButton.setOnClickListener {
-            val message = getString(R.string.reset_message, count)
-            Toast.makeText(this, message, Toast.LENGTH_SHORT).show()
-        }    }
+//        val myButton: Button = findViewById(R.id.Button)
+//        val resetButton = findViewById<Button>(R.id.button2)
+//        val show = findViewById<TextView>(R.id.num)
+//        var count = 0
+//
+//        myButton.setOnClickListener{
+//            count += 1
+//            show.text = count.toString()
+//            Toast.makeText(this, "Done$count", Toast.LENGTH_SHORT).show()
+//        }
+//        resetButton.setOnClickListener {
+//            val message = getString(R.string.reset_message, count)
+//            Toast.makeText(this, message, Toast.LENGTH_SHORT).show()
+//        }
+}
 }
